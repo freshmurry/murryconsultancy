@@ -1157,7 +1157,7 @@ section {
 }
 
 .testimonials .swiper-slide {
-  opacity: 0.3;
+/*   opacity: 0.3; */
 }
 
 @media (max-width: 1199px) {
