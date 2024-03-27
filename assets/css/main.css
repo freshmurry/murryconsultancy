@@ -517,7 +517,7 @@ section {
 @media (min-width: 1034px) {
   .hero:after {
     position: absolute;
-    content: "";
+/*     content: ""; */
     width: 40%;
     background: var(--color-secondary);
     top: 0;
