@@ -362,7 +362,8 @@ section h3.section-subheading {
 .team-member img {
   width: 14rem;
   height: 14rem;
-  /*border: 0.1rem solid #17395c;*/
+/*   border: 0.1rem solid #17395c; */
+border-radius: 50%;
 }
 .team-member h4 {
   margin-top: 1.5rem;
