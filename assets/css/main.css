@@ -269,7 +269,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   color: #fff;
-  font-family: var(--font-secondary);
+/*   font-family: var(--font-secondary); */
   margin: 0;
   text-shadow: 3px 2px #000;
 }
@@ -405,7 +405,7 @@ section {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 400px;
+/*     max-width: 400px; */
     bottom: 0;
     transition: 0.3s;
     z-index: 9997;
@@ -429,7 +429,7 @@ section {
     justify-content: space-between;
     padding: 10px 20px;
     font-family: var(--font-default);
-    font-size: 15px;
+/*     font-size: 15px; */
     font-weight: 600;
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
@@ -554,7 +554,7 @@ section {
   font-weight: 700;
   line-height: 1.2;
   color: #fff;
-  font-family: var(--font-secondary);
+/*   font-family: var(--font-secondary); */
 }
 
 .hero blockquote {
