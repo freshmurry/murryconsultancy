@@ -113,66 +113,86 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container position-relative" data-aos="fade-up">
-
-        <div class="row gy-4 d-flex justify-content-end">
-
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-          
-          <!-- Email Form -->
-          <form action="https://formsubmit.co/info@murryconsultancy.com" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="message" placeholder="Message" required></textarea>
-            <button type="submit">Send Message</button>
-          </form>
-          <!-- End Email Form -->
-            
-            <div class="info-item d-flex">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h4>Email:</h4>
-                <p href="mailto:lawrencemurry@yahoo.com">info@murryconsultancy.com</p>
-              </div>
-            </div><!-- End Info Item -->
-
-            <div class="info-item d-flex">
-              <i class="bi bi-phone flex-shrink-0"></i>
-              <div>
-                <h4>Call:</h4>
-                <a class="btn btn-success" href="tel:1-773-727-5654">Click to Call</a>
-              </div>
-            </div><!-- End Info Item -->
-
+    
+        <div class="row gy-4 d-flex justify-content-center">
+    
+          <!-- Contact Form -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card shadow p-4 border-0">
+              <h3 class="text-center mb-3">Get in Touch</h3>
+              <form action="https://formsubmit.co/info@murryconsultancy.com" method="POST">
+                
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                  </div>
+                </div>
+    
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                  </div>
+                </div>
+    
+                <div class="mb-3">
+                  <label for="subject" class="form-label">Subject</label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-chat"></i></span>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject" required>
+                  </div>
+                </div>
+    
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+    
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-send"></i> Send Message
+                  </button>
+                </div>
+    
+              </form>
+            </div>
           </div>
-
-          <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div> -->
           <!-- End Contact Form -->
+    
+          <!-- Contact Info -->
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="card shadow p-4 border-0">
+              <h3 class="text-center mb-3">Contact Information</h3>
+    
+              <div class="info-item d-flex align-items-center mb-3">
+                <i class="bi bi-envelope fs-3 text-primary me-3"></i>
+                <div>
+                  <h5>Email:</h5>
+                  <p><a href="mailto:info@murryconsultancy.com" class="text-dark">info@murryconsultancy.com</a></p>
+                </div>
+              </div>
+    
+              <div class="info-item d-flex align-items-center mb-3">
+                <i class="bi bi-phone fs-3 text-primary me-3"></i>
+                <div>
+                  <h5>Call:</h5>
+                  <a class="btn btn-success" href="tel:1-773-727-5654">Click to Call</a>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+          <!-- End Contact Info -->
+    
+        </div>
+    
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
 
         </div>
 
