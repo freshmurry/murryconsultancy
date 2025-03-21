@@ -151,6 +151,7 @@
                 <div class="mb-3">
                   <label for="message" class="form-label">Message</label>
                   <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                  <input type="hidden" name="_captcha" value=""> <!-- honeypot field -->
                 </div>
     
                 <div class="d-grid">
@@ -203,6 +204,17 @@
 
   </main><!-- End #main -->
 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const honeypotField = document.querySelector('input[name="_captcha"]');
+      if (honeypotField && honeypotField.value !== '') {
+        alert('You are a bot!');
+        return false;
+      }
+      return true;
+    });
+  </script>
+  
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
 
